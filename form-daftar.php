@@ -6,14 +6,14 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Pendaftaran Siswa Baru | SMK Coding</title>
+    <title>Pendaftaran Siswa Baru | Kejuaraan Coding</title>
     <style type="text/css">
     body{
         /*padding-left: 4rem;*/
         padding-top: 6rem;
         padding-bottom: 5rem;
         background-color: #ccf8ff;
-        font-family: 'Open Sans', sans-serif;
+        font-family: "Times New Roman", Times, serif;
     }
     .formulir{
         border-radius:20px;
@@ -53,7 +53,7 @@
 
         <p>
             <label for="nama">Nama: </label>
-            <input type="text" name="nama" placeholder="nama lengkap" />
+            <input type="text" name="nama" placeholder="Nama Lengkap" />
         </p>
         <p>
             <label for="alamat">Alamat: </label>
@@ -76,7 +76,7 @@
         </p>
         <p>
             <label for="sekolah_asal">Sekolah Asal: </label>
-            <input type="text" name="sekolah_asal" placeholder="nama sekolah" />
+            <input type="text" name="sekolah_asal" placeholder="Nama Sekolah" />
         </p>
         <p>
             <input class="button" type="submit" value="Daftar" name="daftar" />
