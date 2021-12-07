@@ -12,7 +12,7 @@
         /*padding-left: 4rem;*/
         padding-top: 6rem;
         padding-bottom: 5rem;
-        background-color: #FFEBCC;
+        background-color: #ccf8ff;
         font-family: 'Open Sans', sans-serif;
     }
     .formulir{
@@ -21,7 +21,7 @@
         margin-top: 4rem;
         margin-left:25rem;
         margin-right:25rem;
-        background-color: #FBFFE2;
+        background-color: #d9fcff;
     }
     .button {
       background-color: white; 
@@ -35,7 +35,7 @@
     }
     
     .button:hover {
-      background-color: #FF9999;
+      background-color: #6af77d;
       color: white;
     }
     </style>
@@ -70,7 +70,7 @@
                 <option>Islam</option>
                 <option>Kristen</option>
                 <option>Hindu</option>
-                <option>Budha</option>
+                <option>Buddha</option>
                 <option>Atheis</option>
             </select>
         </p>
