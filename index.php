@@ -6,14 +6,14 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Pendaftaran Siswa Baru | SMK Coding</title>
+    <title>Pendaftaran Siswa Baru | Kejuaraan Coding</title>
     <style type="text/css">
     body{
         /*padding-left: 4rem;*/
         padding-top: 6rem;
         padding-bottom: 5rem;
-        background-color: #FFEBCC;
-        font-family: 'Open Sans', sans-serif;
+        background-color: #ccf8ff;
+        font-family: "Times New Roman", Times, serif;
     }
     .menu{
         border-radius:20px;
@@ -21,7 +21,7 @@
         margin-top: 4rem;
         margin-left:25rem;
         margin-right:25rem;
-        background-color: #FBFFE2;
+        background-color: #d9fcff;
     }
     .button {
       background-color: white; 
@@ -35,7 +35,7 @@
     }
     
     .button:hover {
-      background-color: #FF9999;
+      background-color: #6af77d;
       color: white;
     }
     </style>
@@ -44,7 +44,7 @@
 <body>
     <header style="text-align: center;">
         <h3>Pendaftaran Siswa Baru</h3>
-        <h1>SMA SMA an</h1>
+        <h1>Kejuaraan Coding</h1>
     </header>
 
     <div class="menu">
