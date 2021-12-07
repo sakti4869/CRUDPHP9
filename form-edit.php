@@ -31,14 +31,14 @@ if( mysqli_num_rows($query) < 1 ){
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Pendaftaran Siswa Baru | SMK Coding</title>
+    <title>Pendaftaran Siswa Baru | Kejuaraan Coding</title>
     <style type="text/css">
     body{
         /*padding-left: 4rem;*/
         padding-top: 6rem;
         padding-bottom: 5rem;
         background-color: #ccf8ff;
-        font-family: 'Open Sans', sans-serif;
+        font-family: "Times New Roman", Times, serif;
     }
     .formulir{
         border-radius:20px;
