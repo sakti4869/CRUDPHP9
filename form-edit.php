@@ -37,7 +37,7 @@ if( mysqli_num_rows($query) < 1 ){
         /*padding-left: 4rem;*/
         padding-top: 6rem;
         padding-bottom: 5rem;
-        background-color: #FFEBCC;
+        background-color: #ccf8ff;
         font-family: 'Open Sans', sans-serif;
     }
     .formulir{
@@ -46,7 +46,7 @@ if( mysqli_num_rows($query) < 1 ){
         margin-top: 4rem;
         margin-left:25rem;
         margin-right:25rem;
-        background-color: #FBFFE2;
+        background-color: #d9fcff;
     }
     .button {
       background-color: white; 
@@ -60,7 +60,7 @@ if( mysqli_num_rows($query) < 1 ){
     }
     
     .button:hover {
-      background-color: #FF9999;
+      background-color: #6af77d;
       color: white;
     }
     </style>
@@ -79,7 +79,7 @@ if( mysqli_num_rows($query) < 1 ){
 
         <p>
             <label for="nama">Nama: </label>
-            <input type="text" name="nama" placeholder="nama lengkap" value="<?php echo $siswa['nama'] ?>" />
+            <input type="text" name="nama" placeholder="Nama Lengkap" value="<?php echo $siswa['nama'] ?>" />
         </p>
         <p>
             <label for="alamat">Alamat: </label>
@@ -98,13 +98,13 @@ if( mysqli_num_rows($query) < 1 ){
                 <option <?php echo ($agama == 'Islam') ? "selected": "" ?>>Islam</option>
                 <option <?php echo ($agama == 'Kristen') ? "selected": "" ?>>Kristen</option>
                 <option <?php echo ($agama == 'Hindu') ? "selected": "" ?>>Hindu</option>
-                <option <?php echo ($agama == 'Budha') ? "selected": "" ?>>Budha</option>
+                <option <?php echo ($agama == 'Buddha') ? "selected": "" ?>>Budha</option>
                 <option <?php echo ($agama == 'Atheis') ? "selected": "" ?>>Atheis</option>
             </select>
         </p>
         <p>
             <label for="sekolah_asal">Sekolah Asal: </label>
-            <input type="text" name="sekolah_asal" placeholder="nama sekolah" value="<?php echo $siswa['sekolah_asal'] ?>" />
+            <input type="text" name="sekolah_asal" placeholder="Nama Sekolah" value="<?php echo $siswa['sekolah_asal'] ?>" />
         </p>
         <p>
             <input class="button" type="submit" value="Simpan" name="simpan" />
